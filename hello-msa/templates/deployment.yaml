@@ -47,7 +47,7 @@ spec:
     spec:
       containers:
         - name: msa-usersrv
-          image: dangdang42/msa-user-service:v2
+          image: dangdang42/msa-user-service:latest
           ports:
             - containerPort: 8000
               protocol: TCP
